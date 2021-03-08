@@ -1,0 +1,6 @@
+This challenge is simlar to crackme0x02 but the difference is our input
+is being passed into function named test there it's being compared with
+the number 338724.
+If it's correct this statement will be printed "Sdvvzrug#RN$$$#=,"
+This is a cipher text this statement goes under function shift and shifts 
++3 and prints Password OK!!! :)

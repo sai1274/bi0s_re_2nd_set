@@ -1,0 +1,13 @@
+i used gdb to debug.
+gdb crackme0x0b
+then i gave the command info functions i found a function "wcscmp@plt"
+so i thought that my is being passed into that functions as argument
+and then my input is being compared with the required string.
+Initially i gave a random key then first letter of my key is being compared with
+'w'. With that thing i found that other letters of the string.
+
+
+Or you can try this method since our input is being compared with a
+string which is already stored in the source code. So try to dump them
+using the command 
+	"objdump -s -j .data filename"

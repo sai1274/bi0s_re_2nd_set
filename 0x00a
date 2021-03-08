@@ -1,0 +1,3 @@
+run the file using ltrace ./filename and now enter a random text.
+it will show you that our input is being compared with some other string
+that will be your password "g00dJ0B!".

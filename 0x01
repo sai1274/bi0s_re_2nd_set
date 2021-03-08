@@ -1,0 +1,6 @@
+Try to debug the ELF file using gdb.
+Then disassemble main using the command disas main.
+Going through the program we can find that our input is being compared with 
+0x149 (here 0x represents that the number is in hex form. On converting it in 
+decimal form it gives you 5742).
+From this we can say our password is 5274.
